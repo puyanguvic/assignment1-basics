@@ -8,6 +8,7 @@ def main():
         input_path = "data/TinyStoriesV2-GPT4-train.txt",
         vocab_size = 10_000,
         special_tokens = ["<|endoftext|>"],
+        num_processes = 120
     )
 
     output = Path("artifacts")
